@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {font-family: 'Roboto', sans-serif; margin: 0; font-size:20px; line-height:1.75rem; font-weight: 100; letter-spacing: 1px;}
+div#root {height: 100vh;}
+#site{
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 50px; /* Height of footer */
+  min-height: 100%;
+}
+.content {padding:80px 0 0; margin-top: 60px;}
+.row {width:100% !important;}
+.padded {padding: 60px 0;}
+
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+.navbar-dark .navbar-nav .dropdown-menu {background: #343a40;}
+.navbar-dark .dropdown-item:focus, .navbar-dark .dropdown-item:hover {background-color: #212529; transition-duration: 0.5s;}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 1.5rem 1rem !important;
+    color: #fff !important;
+    font-weight: 100 !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:focus {color: #5cb52b !important; transition-duration: 0.5s;}
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+    top: 9px;
+}
+.navbar-dark .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.parallax {
+    position: relative;
+    padding: 20rem 2rem 16rem;
+    background-size: cover;
+    border-radius: 0;
+    overflow: hidden;
+}
+.parallax:before {
+    content: '';
+    width: 100%;
+    background: #5cb52b;
+    opacity: 0.75;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+    right: -50%;
+    transform: skew(-15deg, 0deg);
+    z-index: 1;
+}
+.parallax div {width:100%;}
+.parallax .container {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+}
+
+
+
+footer {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.6em;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+footer a, footer a:hover, footer a:active {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+#home {
+    position: relative;
+    top: -60px;
+}
+#home .header .headerContent {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#home .header .headerContent h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+    font-size: 2.1rem;
+    line-height: 1em;
+}
+#home .header .headerContent h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3.7rem;
+    margin: 0;
+    line-height: 1em;
+}
+#home #about h2 {
+    font-size: 3em;
+    line-height: 0.9em;
+    margin-top: 35px;
+    font-weight: 100;
+}
+#home #about h2 strong {
+    display: block;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 0.85em;
+}
+#home .testimonial:before{
+    left:-50%;
+}
+#home .testimonial .testimonialContent {
+    position: absolute;
+    color:#fff;
+    text-align: right;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#home .testimonial .testimonialContent h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: left;
+    font-size: 2.35rem;
+    margin: 0;
+    line-height: 1em;
+}
+#home .testimonial .testimonialContent strong {
+    color:#fff;
+}
+#home #areas h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+#home #contact-home {
+    background:#5cb52b;
+    color: #fff;
+}
+#home #contact-home h2 {
+    padding: 0;
+}
+#home #contact-home a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+
+
+#contact {
+    position: relative;
+    top: -60px;
+}
